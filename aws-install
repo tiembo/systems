@@ -1,0 +1,31 @@
+********
+packages
+********
+git
+gcc
+make
+readline-devel
+rvmrc
+libevent-devel (dependency for tmux)
+tmux (via source)
+htop (via source)
+mutt
+ctags (for vim)
+jdk-devel (openjdk exact package or something)
+
+*******
+configs
+*******
+tmux
+vim
+
+******
+tweaks
+******
+change localtime (ln -sf /usr/share/zoneinfo/PST8PDT /etc/localtime)
+
+****
+TODO
+****
+learn mutt
+sun jdk eventually
