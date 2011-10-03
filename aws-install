@@ -5,6 +5,7 @@ git
 gcc
 make
 readline-devel
+zlib-devel (for rvm)
 rvmrc
 libevent-devel (dependency for tmux)
 tmux (via source)
@@ -16,8 +17,8 @@ jdk-devel (openjdk exact package or something)
 *******
 configs
 *******
-tmux
-vim
+tmux (via github)
+vim (via github)
 
 ******
 tweaks
