@@ -28,5 +28,4 @@ change localtime (ln -sf /usr/share/zoneinfo/PST8PDT /etc/localtime)
 ****
 TODO
 ****
-learn mutt
 sun jdk eventually
