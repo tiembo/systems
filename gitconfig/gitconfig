@@ -2,3 +2,6 @@
 	branch = auto
 	status = auto
 	diff = auto
+[user]
+	email = tiem@songfamily.org
+	name = Tiem Song
