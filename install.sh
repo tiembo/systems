@@ -1,3 +1,4 @@
 #!/bin/bash
 
-ln -s `pwd -P`/tmux/tmux.conf ~/.tmux.conf
+ln -fs `pwd -P`/gitconfig/gitconfig ~/.gitconfig
+ln -fs `pwd -P`/tmux/tmux.conf ~/.tmux.conf
