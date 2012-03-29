@@ -1,3 +1,11 @@
+# bundler
 alias be="bundle exec"
 alias bi="bundle install"
+
+# git
+alias d="git diff"
 alias s="git status"
+
+# rails
+alias rdbm="be rake db:migrate"
+alias rs="be rails s"
