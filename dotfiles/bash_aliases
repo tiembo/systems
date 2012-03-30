@@ -7,6 +7,6 @@ alias d="git diff"
 alias s="git status"
 
 # rails
-alias db="be rake db"
+alias db="be rails db"
 alias rdbm="be rake db:migrate"
 alias rs="be rails s"
