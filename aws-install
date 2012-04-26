@@ -5,8 +5,9 @@ git
 gcc
 make
 readline-devel
-zlib-devel (for rvm)
-rvmrc
+rvm
+  may need zlib-devel
+  also install suggested from "rvm requirements"
 libevent-devel (dependency for tmux)
 tmux (via source)
 htop (via source)
