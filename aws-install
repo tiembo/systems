@@ -1,6 +1,6 @@
-********
-packages
-********
+******************
+packages (via yum)
+******************
 git
 gcc
 make
@@ -13,6 +13,7 @@ htop (via source)
 mutt
 ctags (for vim)
 jdk-devel (openjdk exact package or something)
+openssl (for janus)
 
 *******
 configs
