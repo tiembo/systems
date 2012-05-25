@@ -8,5 +8,6 @@ alias s="git status"
 
 # rails
 alias db="be rails db"
+alias rc="be rails c"
 alias rdbm="be rake db:migrate"
 alias rs="be rails s"
