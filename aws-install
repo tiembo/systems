@@ -1,33 +1,10 @@
 ******************
-packages (via yum)
+packages (via apt)
 ******************
 git
-gcc
-make
-readline-devel
-rvm
-  may need zlib-devel
-  also install suggested from "rvm requirements"
-libevent-devel (dependency for tmux)
-tmux (via source)
-htop (via source)
-mutt
-ctags (for vim)
-jdk-devel (openjdk exact package or something)
-openssl (for janus)
-
-*******
-configs
-*******
-tmux (via github)
-vim (via github)
+htop
 
 ******
 tweaks
 ******
-change localtime (ln -sf /usr/share/zoneinfo/PST8PDT /etc/localtime)
-
-****
-TODO
-****
-sun jdk eventually
+change localtime (sudo dpkg-reconfigure tzdata)
