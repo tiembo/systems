@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=JetBrains RubyMine
+Exec=<PATH_TO_RUBYMINE_BIN_DIR>/rubymine.sh %f
+Icon=<PATH_TO_RUBYMINE_BIN_DIR>/RMlogo.svg
+Comment=Develop with pleasure!
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=jetbrains-rubymine
