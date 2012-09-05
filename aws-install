@@ -4,6 +4,11 @@ packages (via apt)
 git
 htop
 
+****
+misc
+****
+rvm
+
 ******
 tweaks
 ******
