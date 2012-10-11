@@ -4,6 +4,7 @@ alias bi="bundle install"
 
 # git
 alias d="git diff"
+alias ds="git diff --staged"
 alias s="git status"
 
 # rails
@@ -11,3 +12,6 @@ alias db="be rails db"
 alias rc="be rails c"
 alias rdbm="be rake db:migrate"
 alias rs="be rails s"
+
+# system
+alias ll="ls -l"
