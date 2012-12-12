@@ -5,6 +5,7 @@ alias bi="bundle install"
 # git
 alias d="git diff"
 alias ds="git diff --staged"
+alias gitpp="git pull && git push"
 alias s="git status"
 
 # rails
@@ -15,3 +16,8 @@ alias rs="be rails s"
 
 # system
 alias ll="ls -l"
+
+###################################################
+# environment variables (these should go elsewhere)
+GIT_MERGE_AUTOEDIT=no
+export GIT_MERGE_AUTOEDIT
