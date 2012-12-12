@@ -5,3 +5,5 @@
 [user]
 	email = tiem@songfamily.org
 	name = Tiem Song
+[alias]
+        co = checkout
