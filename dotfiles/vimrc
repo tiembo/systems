@@ -1,1 +1,3 @@
-syntax on
+set gfn=Monaco:h18   " set gui font to Monaco, size 18
+set number           " enable line numbers
+syntax on            " enable syntax highlighting
