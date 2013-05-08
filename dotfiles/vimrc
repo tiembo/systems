@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 set gfn=Monaco:h18   " set gui font to Monaco, size 18
 set number           " enable line numbers
 set ruler            " enable ruler (cursor row/column)
