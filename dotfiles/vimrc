@@ -1,4 +1,5 @@
-execute pathogen#infect()
+call pathogen#infect()
+call pathogen#helptags()
 
 set gfn=Monaco:h18   " set gui font to Monaco, size 18
 set number           " enable line numbers
