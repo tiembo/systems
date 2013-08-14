@@ -5,7 +5,7 @@ alias bi="bundle install"
 # git
 alias d="git diff"
 alias ds="git diff --staged"
-alias gitpp="git pull && git push"
+alias gitppr="git pull --rebase && git push"
 alias s="git status"
 
 # rails
