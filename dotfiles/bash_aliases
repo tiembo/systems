@@ -9,6 +9,9 @@ alias gitppr="git pull --rebase && git push"
 alias gitsu="git submodule sync; git pull --recurse-submodules; git submodule update --init --recursive"
 alias s="git status"
 
+# postgres
+alias pg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log"
+
 # rails
 alias db="be rails db"
 alias rc="be rails c"
