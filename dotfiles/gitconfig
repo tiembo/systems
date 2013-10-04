@@ -6,4 +6,7 @@
 	email = tiem@songfamily.org
 	name = Tiem Song
 [alias]
+        ci = commit
         co = checkout
+[push]
+	default = current
