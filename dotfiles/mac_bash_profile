@@ -5,4 +5,9 @@ if [ -d "/usr/local/share/npm/bin" ]; then
   PATH=$PATH:/usr/local/share/npm/bin
 fi
 
+# homebrew
+if [ -d "/usr/local/bin" ]; then
+  PATH=/usr/local/bin:$PATH
+fi
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
