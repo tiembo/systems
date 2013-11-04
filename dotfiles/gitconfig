@@ -10,3 +10,5 @@
         co = checkout
 [push]
 	default = current
+[core]
+	autocrlf = input
