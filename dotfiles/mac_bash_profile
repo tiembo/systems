@@ -10,4 +10,8 @@ if [ -d "/usr/local/bin" ]; then
   PATH=/usr/local/bin:$PATH
 fi
 
+# command line colors and colors for 'ls' command
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
