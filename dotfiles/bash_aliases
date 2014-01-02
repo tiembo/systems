@@ -19,7 +19,7 @@ alias rdbm="be rake db:migrate"
 alias rs="be rails s"
 
 # system
-alias ll="ls -l"
+alias ll="ls -lF"
 
 ###################################################
 # environment variables (these should go elsewhere)
