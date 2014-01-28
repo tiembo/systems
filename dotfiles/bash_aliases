@@ -82,7 +82,7 @@ git_prompt ()
             git_color="${c_git_staged}"
         fi
     fi
-    echo "[$git_color$GIT_BRANCH$c_reset]"
+    echo " [$git_color$GIT_BRANCH$c_reset]"
 }
 
 # Thy holy prompt.
