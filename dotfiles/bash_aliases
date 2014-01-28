@@ -21,7 +21,75 @@ alias rs="be rails s"
 # system
 alias ll="ls -lF"
 
-###################################################
+################################################################################
+# git aware prompt w/colors (from https://gist.github.com/tobiassjosten/828432),
+# with modifications for color variables
+
+BLUE='\[\e[1;34m\]'
+GREEN='\[\e[0;32m\]'
+RED='\[\e[0;31m\]'
+WHITE='\[\e[0;37m\]'
+YELLOW='\[\e[0;33m\]'
+NO_COLOR='\[\e[0m\]'
+
+# Configure colors, if available.
+if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+    c_reset=$NO_COLOR
+    c_user=$GREEN
+    c_path=$BLUE
+    c_git_clean=$WHITE
+    c_git_staged=$GREEN
+    c_git_unstaged=$RED
+else
+    c_reset=
+    c_user=
+    c_path=
+    c_git_clean=
+    c_git_staged=
+    c_git_unstaged=
+fi
+
+# Add the titlebar information when it is supported.
+case $TERM in
+xterm*|rxvt*)
+    TITLEBAR='\[\e]0;\u@\h: \w\a\]';
+    ;;
+*)
+    TITLEBAR="";
+    ;;
+esac
+
+# Function to assemble the Git parsingart of our prompt.
+git_prompt ()
+{
+    GIT_DIR=`git rev-parse --git-dir 2>/dev/null`
+    if [ -z "$GIT_DIR" ]; then
+        return 0
+    fi
+    GIT_HEAD=`cat $GIT_DIR/HEAD`
+    GIT_BRANCH=${GIT_HEAD##*/}
+    if [ ${#GIT_BRANCH} -eq 40 ]; then
+        GIT_BRANCH="(no branch)"
+    fi
+    STATUS=`git status --porcelain`
+    if [ -z "$STATUS" ]; then
+        git_color="${c_git_clean}"
+    else
+        echo -e "$STATUS" | grep -q '^ [A-Z\?]'
+        if [ $? -eq 0 ]; then
+            git_color="${c_git_unstaged}"
+        else
+            git_color="${c_git_staged}"
+        fi
+    fi
+    echo "[$git_color$GIT_BRANCH$c_reset]"
+}
+
+# Thy holy prompt.
+PROMPT_COMMAND="$PROMPT_COMMAND PS1=\"${TITLEBAR}${c_user}\u${c_reset}@${c_user}\h${c_reset}:${c_path}\w${c_reset}\$(git_prompt)\$ \" ;"
+
+################################################################################
 # environment variables (these should go elsewhere)
 GIT_MERGE_AUTOEDIT=no
 export GIT_MERGE_AUTOEDIT
+
