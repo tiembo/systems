@@ -93,3 +93,8 @@ PROMPT_COMMAND="$PROMPT_COMMAND PS1=\"${TITLEBAR}${c_user}\u${c_reset}@${c_user}
 GIT_MERGE_AUTOEDIT=no
 export GIT_MERGE_AUTOEDIT
 
+################################################################################
+# source non-versioned aliases
+if [ -r ~/.bash_local_aliases ]; then
+  source ~/.bash_local_aliases
+fi
