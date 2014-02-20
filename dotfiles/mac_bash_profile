@@ -10,6 +10,11 @@ if [ -d "/usr/local/bin" ]; then
   PATH=/usr/local/bin:$PATH
 fi
 
+# Android SDK
+if [ -d "/Applications/Android Studio.app/sdk/platform-tools" ]; then
+  PATH=$PATH:"/Applications/Android Studio.app/sdk/platform-tools"
+fi
+
 # command line colors and colors for 'ls' command
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
