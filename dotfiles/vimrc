@@ -2,4 +2,6 @@ colorscheme desert   " color scheme
 set gfn=Monaco:h18   " set gui font to Monaco, size 18
 set number           " enable line numbers
 set ruler            " enable ruler (cursor row/column)
+set expandtab        " change tab to spaces
+set tabstop=2        " tab stop of 2 spaces
 syntax on            " enable syntax highlighting
