@@ -1,7 +1,2 @@
-Manually install:
-- command-t for vim (via pathogen)
-  - cd ~/.vim/bundle/command-t/ruby/command-t
-  - rvm use system
-  - ruby extconf.rb
-  - make clean
-  - make
+Dotfiles and other system stuff
+
