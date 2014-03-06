@@ -1,14 +1,14 @@
 [color]
-	branch = auto
-	status = auto
-	diff = auto
+  branch = auto
+  status = auto
+  diff = auto
 [user]
-	email = tiem@songfamily.org
-	name = Tiem Song
+  email = tiem@songfamily.org
+  name = Tiem Song
 [alias]
-        ci = commit
-        co = checkout
+  ci = commit
+  co = checkout
 [push]
-	default = current
+  default = current
 [core]
-	autocrlf = input
+  autocrlf = input
