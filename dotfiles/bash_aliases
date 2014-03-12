@@ -6,7 +6,7 @@ alias bi="bundle install"
 alias d="git diff"
 alias ds="git diff --staged"
 alias gitppr="git pull --rebase && git push"
-alias gitsu="git submodule sync; git pull --recurse-submodules; git submodule update --init --recursive"
+alias gitsu="git submodule update"
 alias s="git status"
 
 # postgres
