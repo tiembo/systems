@@ -15,8 +15,9 @@ alias rc="be rails c"
 alias rdbm="be rake db:migrate"
 alias rs="be rails s"
 
-# system
+# system and misc
 alias ll="ls -lF"
+alias utc='date -u +"%Y-%m-%dT%H%MZ"'
 
 ################################################################################
 # git aware prompt w/colors (from https://gist.github.com/tobiassjosten/828432),
