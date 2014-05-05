@@ -1,2 +1,6 @@
+# ignored directories
 --ignore-dir=.idea/
 --ignore-dir=log/
+
+# always color - helpful for piping
+--color
