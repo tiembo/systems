@@ -11,8 +11,12 @@ if [ -d "/usr/local/bin" ]; then
 fi
 
 # Android SDK
-if [ -d "/Applications/Android Studio.app/sdk/platform-tools" ]; then
-  PATH=$PATH:"/Applications/Android Studio.app/sdk/platform-tools"
+export ANDROID_SDK_HOME="$HOME/dev/android-sdk-macosx"
+if [ -d "$ANDROID_SDK_HOME/platform-tools" ]; then
+  PATH=$PATH:"$ANDROID_SDK_HOME/platform-tools"
+fi
+if [ -d "$ANDROID_SDK_HOME/tools" ]; then
+  PATH=$PATH:"$ANDROID_SDK_HOME/tools"
 fi
 
 # command line colors and colors for 'ls' command
