@@ -5,7 +5,6 @@ alias bi="bundle install"
 # git
 alias d="git diff"
 alias ds="git diff --staged"
-alias gitppr="git pull --rebase && git push"
 alias gitsu="git submodule update"
 alias s="git status"
 
