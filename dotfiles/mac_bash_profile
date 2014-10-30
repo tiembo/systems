@@ -19,6 +19,12 @@ if [ -d "$ANDROID_SDK_HOME/tools" ]; then
   PATH=$PATH:"$ANDROID_SDK_HOME/tools"
 fi
 
+# gradle
+if [ -d "/usr/local/opt/gradle/libexec" ]; then
+  export GRADLE_HOME="/usr/local/opt/gradle/libexec"
+  PATH=$PATH:"$GRADLE_HOME/bin"
+fi
+
 # command line colors and colors for 'ls' command
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
