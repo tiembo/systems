@@ -5,6 +5,7 @@ alias bi="bundle install"
 # git
 alias d="git diff"
 alias ds="git diff --staged"
+alias gitl="git log --decorate=short"
 alias gitsu="git submodule update"
 alias s="git status"
 
