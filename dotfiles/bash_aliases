@@ -3,10 +3,10 @@ alias be="bundle exec"
 alias bi="bundle install"
 
 # git
+alias b="git branch -l"
 alias d="git diff"
 alias ds="git diff --staged"
-alias gitl="git log --decorate=short"
-alias gitsu="git submodule update"
+alias l="git log --decorate=short"
 alias s="git status"
 
 # rails
