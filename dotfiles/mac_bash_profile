@@ -11,7 +11,7 @@ if [ -d "/usr/local/bin" ]; then
 fi
 
 # Android SDK
-export ANDROID_SDK_HOME="$HOME/dev/android-sdk-macosx"
+export ANDROID_SDK_HOME="$HOME/Library/Android/sdk/"
 if [ -d "$ANDROID_SDK_HOME/platform-tools" ]; then
   PATH=$PATH:"$ANDROID_SDK_HOME/platform-tools"
 fi
