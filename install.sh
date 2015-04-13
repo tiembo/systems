@@ -6,13 +6,8 @@ ln -fs `pwd -P`/dotfiles/gitconfig ~/.gitconfig
 ln -fs `pwd -P`/dotfiles/tmux.conf ~/.tmux.conf
 
 # janus customizations
-ln -fs `pwd -P`/dotfiles/gvimrc ~/.gvimrc.after
+ln -fs `pwd -P`/dotfiles/gvimrc.after ~/.gvimrc.after
 ln -fs `pwd -P`/dotfiles/vimrc.after ~/.vimrc.after
-
-# commented out for janus
-#ln -fs `pwd -P`/dotfiles/gvimrc ~/.gvimrc
-#ln -fs `pwd -P`/dotfiles/vimdir ~/.vim
-#ln -fs `pwd -P`/dotfiles/vimrc ~/.vimrc
 
 if [ -r ~/.bash_profile ]; then
   source ~/.bash_profile
