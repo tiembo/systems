@@ -12,3 +12,4 @@
   default = current
 [core]
   autocrlf = input
+  editor = `which vim`
