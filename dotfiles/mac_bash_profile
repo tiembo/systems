@@ -19,6 +19,9 @@ if [ -d "$ANDROID_SDK_HOME/tools" ]; then
   PATH=$PATH:"$ANDROID_SDK_HOME/tools"
 fi
 
+# Android AVD home
+export ANDROID_AVD_HOME="$HOME/.android/avd"
+
 # gradle
 if [ -d "/usr/local/opt/gradle/libexec" ]; then
   export GRADLE_HOME="/usr/local/opt/gradle/libexec"
