@@ -1,5 +1,5 @@
 ###############################################################################
-# 1 - default from Android Studio
+# 1 - default from Android Studio v1.4 (generated with new project)
 .gradle
 /local.properties
 /.idea/workspace.xml
