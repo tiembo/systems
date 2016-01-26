@@ -2,15 +2,6 @@
 alias be="bundle exec"
 alias bi="bundle install"
 
-# git
-alias b="git branch -l"
-alias br="git branch -lr"
-alias d="git diff"
-alias ds="git diff --staged"
-alias gcm="git checkout master"
-alias l="git log --decorate=short"
-alias s="git status"
-
 # rails
 alias db="be rails db"
 alias rc="be rails c"
@@ -18,7 +9,6 @@ alias rdbm="be rake db:migrate"
 alias rs="be rails s"
 
 # system and misc
-alias ll="ls -lF"
 alias utc='date -u +"%Y-%m-%dT%H%MZ"'
 
 ################################################################################
@@ -92,9 +82,3 @@ PROMPT_COMMAND="$PROMPT_COMMAND PS1=\"${TITLEBAR}${c_user}\u${c_reset}@${c_user}
 # environment variables (these should go elsewhere)
 GIT_MERGE_AUTOEDIT=no
 export GIT_MERGE_AUTOEDIT
-
-################################################################################
-# source non-versioned aliases
-if [ -r ~/.bash_local_aliases ]; then
-  source ~/.bash_local_aliases
-fi
