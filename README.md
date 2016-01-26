@@ -2,8 +2,11 @@ Dotfiles and other system stuff
 
 # Installing
 * From the repo root, run `install.sh`
-* Add the following to `.profile` on Mac or `.bashrc` on Linux:
+* Add the following line to `.profile` on Mac or `.bashrc` on Linux:
   `source ~/.bash_common`
+* Add the following line to `.vimrc`:
+  `source ~/.vimrc.after`
+* (Optional) add unversioned commands in `.bash_unversioned`, which will be picked up by `.bash_common`
 * Source `.profile` or `.bashrc`, or open up another terminal window
 
 # Misc software - Ubuntu
