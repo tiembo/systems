@@ -1,0 +1,3 @@
+# aliases
+alias brl='. ~/.bash_common' # reload .bash_common
+alias ll='ls -alF'
