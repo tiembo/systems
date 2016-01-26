@@ -1,6 +1,0 @@
-[submodule "dotfiles/vim/bundle/command-t"]
-	path = dotfiles/vim/bundle/command-t
-	url = git://git.wincent.com/command-t.git
-[submodule "dotfiles/vim/bundle/vim-gitgutter"]
-	path = dotfiles/vim/bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
