@@ -3,14 +3,11 @@
 # OS specific commands
 case "$(uname -s)" in
   Darwin)
-    echo "hello from iOS"
-
-    # command line colors and colors for 'ls' command
-    #export CLICOLOR=1
-    #export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+    export CLICOLOR=1
+    export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
     ;;
   Linux)
-    echo "hello from Linux"
+    # none for now
     ;;
 esac
 
