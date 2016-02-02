@@ -1,3 +1,4 @@
 colorscheme desert
+filetype plugin indent on " enable file type based indent configuration
 set hlsearch " turn on search highlighting
-syntax on
+syntax on " enable syntax highlighting
