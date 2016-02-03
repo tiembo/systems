@@ -4,6 +4,9 @@ Dotfiles and other system stuff
 * From the repo root, run `install.sh`
 * Add the following line to `.profile` on Mac or `.bashrc` on Linux:
   `source ~/.bash_common`
+* Install the following for vim:
+  * [pathogen.vim](https://github.com/tpope/vim-pathogen)
+  * [fugitive.vim](https://github.com/tpope/vim-fugitive)
 * Add the following line to `.vimrc`:
   `source ~/.vimrc.after`
 * (Optional) add unversioned commands in `.bash_unversioned`, which will be picked up by `.bash_common`
