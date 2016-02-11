@@ -18,6 +18,7 @@ fi
 
 # aliases - general
 alias brl='. ~/.bash_common' # reload .bash_common
+alias grep='grep --color=auto'
 alias ll='ls -alF'
 
 # aliases - git
