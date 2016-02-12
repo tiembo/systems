@@ -9,7 +9,7 @@
   ci = commit
   co = checkout
 [push]
-  default = simple
+  default = current
 [core]
   autocrlf = input
   editor = `which vim`
