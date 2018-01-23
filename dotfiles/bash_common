@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# OS specific commands
-case "$(uname -s)" in
-  Darwin)
-    export CLICOLOR=1
-    export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
-    export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' # default from Ubuntu 14.04
-    ;;
-  Linux)
-    # none for now
-    ;;
-esac
+# deprecated - OS specific commands
+#case "$(uname -s)" in
+#  Darwin)
+#    export CLICOLOR=1
+#    export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+#    export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' # default from Ubuntu 14.04
+#    ;;
+#  Linux)
+#    # none for now
+#    ;;
+#esac
 
 # source unversioned settings
 if [ -r ~/.bash_unversioned ]; then
