@@ -1,15 +1,15 @@
+[alias]
+  ci = commit
+  co = checkout
 [color]
   branch = auto
   status = auto
   diff = auto
-[user]
-  email = tiem@google.com
-  name = Tiem Song
-[alias]
-  ci = commit
-  co = checkout
-[push]
-  default = current
 [core]
   autocrlf = input
   editor = `which vim`
+[push]
+  default = current
+[user]
+  email = tiem@songfamily.org
+  name = Tiem Song
