@@ -13,3 +13,6 @@
 [user]
   email = tiem@songfamily.org
   name = Tiem Song
+
+[include]
+  path = .gitconfig-internal
