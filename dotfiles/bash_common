@@ -23,7 +23,7 @@ alias grep='grep --color=auto'
 alias ll='ls -alF'
 
 # aliases - git
-alias b="git branch -l"
+alias b="git branch --list"
 alias br="git branch -lr"
 alias d="git diff"
 alias ds="git diff --staged"
