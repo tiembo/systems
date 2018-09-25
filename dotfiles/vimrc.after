@@ -1,5 +1,5 @@
 set nocompatible
-" execute pathogen#infect()
+execute pathogen#infect()
 
 colorscheme desert
 filetype plugin indent on " enable file type based indent configuration
