@@ -3,7 +3,7 @@ Dotfiles and other system stuff
 # Installing
 
 * From the repo root, run `install.sh`
-* Add the following line to `.profile` on Mac or `.bashrc` on Linux:
+* Add the following line to `.bash_profile` on Mac or `.bashrc` on Linux:
   `source ~/.bash_common`
 * Install the following for vim:
   * [pathogen.vim](https://github.com/tpope/vim-pathogen)
