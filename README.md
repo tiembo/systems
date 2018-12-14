@@ -12,7 +12,7 @@ Dotfiles and other system stuff
   `source ~/.vimrc.after`
 * (Optional) add unversioned commands in `~/.bash_unversioned`, which will be
   picked up by `~/.bash_common`
-* Source `.profile` or `.bashrc`, or open up another terminal window
+* Source `.bash_profile` or `.bashrc`, or open up another terminal window
 
 # Misc software - Ubuntu
 
