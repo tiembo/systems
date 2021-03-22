@@ -1,8 +1,17 @@
-set nocompatible
-execute pathogen#infect()
+" don't need to turn off compatible mode if vim sources a user .vimrc
+"set nocompatible
 
+" set color scheme
 colorscheme desert
-filetype plugin indent on " enable file type based indent configuration
-set hlsearch " turn on search highlighting
-set number " show line number
-syntax on " enable syntax highlighting
+
+" enable file type based indent configuration
+filetype plugin indent on
+
+" turn on search highlighting
+set hlsearch
+
+" show line number
+set number
+
+" enable syntax highlighting
+syntax on
